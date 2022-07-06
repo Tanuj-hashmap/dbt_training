@@ -1,7 +1,13 @@
 version: 2
 sources:
+  - name: RAW
+    description: This is RAW_TEST Database Source Tables used for STAGE Layer
+    database: DBTTRAINING
+    tables:
+      - name: CUSTOMER
+      - name: ORDERS
   - name: STAGE
-    description: This is RAW_TEST Database Source Tables used for creating STANDARD_TEST Layer
+    description: This is STAGE Database Source Tables used for PUBLISH
     database: DBTTRAINING
     tables:
       - name: CUSTOMER
