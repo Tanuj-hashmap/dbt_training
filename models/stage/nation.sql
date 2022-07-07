@@ -2,4 +2,4 @@
     schema= 'stage'
   ) }}
 
-select * from {{ source('RAW', 'ORDERS') }}
+select * from {{ source('RAW', 'NATION') }}

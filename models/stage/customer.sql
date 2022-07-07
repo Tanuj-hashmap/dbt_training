@@ -1,4 +1,4 @@
 {{ config(
     schema= 'stage'
   ) }}
-select * from "DBTTRAINING"."RAW"."CUSTOMER"
+select * from {{source("RAW","CUSTOMER")}}
